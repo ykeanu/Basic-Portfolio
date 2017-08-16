@@ -1,0 +1,165 @@
+* {
+	text-align: center;
+}
+
+body {
+	background-image: url("../images/background.jpg");
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container {
+	width: 960px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+
+/* Top segment of website including header and navigation links. */
+.navigationBar {
+	/*background-color: #4285f4;*/
+	/*background-color:#3e3bf8;*/
+	background-color:#1f2849;
+	height: 75px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	border-bottom: 2.5px solid #FFFFFF;
+	/*border: 1px solid red;*/
+}
+
+.navigationContent {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*Header of 'Izzy Keanu'*/
+header {
+	float: left;
+	/*border: 5px solid red;*/
+	margin: 0 auto;
+	padding: 25px 20px 25px 15px;
+}
+
+header a {
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+}
+
+/* Hover over header */
+header a:hover {
+	color: #FF0000;
+}
+
+/* Navigation links */
+nav {
+	float: right;
+	/*border: 1px solid red;*/
+	padding: 20px 0px 20px 0px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	color: #FFFFFF;
+	display: block;
+	padding: 8px;
+	font-size: 15px;
+	text-decoration: none
+}
+
+li a:hover {
+	color: #FF0000;
+}
+
+.navigationBar::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.mainContent {
+	margin: 30px 0px 30px 0px;
+	padding: 0;
+	/*border: 1px solid red;*/
+}
+
+h1 {
+	text-align: left;
+	color: #1f2849;
+	font-size: 24px;
+	font-weight: bold;
+	text-shadow: -0.3px 0 white, 0 0.3px white, 0.3px 0 white, 0 -0.3px white;
+}
+
+h2 {
+	text-align: left;
+	color: #1f2849;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: -0.3px 0 white, 0 0.3px white, 0.3px 0 white, 0 -0.3px white;
+}
+
+section {
+	background-color: #efefef;
+	float: left;
+	width: 618px;
+	border: 1px solid #1f2849;
+	padding: 20px 15px 20px 15px;
+}
+
+section img {
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+section p {
+	text-align: left;
+}
+
+aside {
+	background-color: #efefef;
+	float: right;
+	width: 238px;
+	border: 1px solid #1f2849;
+	padding: 20px 15px 20px 15px;
+}
+
+.socialMedia img {
+	width: 64px;
+	height: 64px;
+}
+
+.socialMedia {
+	/*margin: 20px 15px 20px 15px;*/
+}
+.mainContent::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+footer {
+/*	background-color: #3F5295;*/
+	background-color: #6C7595;
+	height: 75px;
+	border-top: 2.5px solid #FFFFFF;
+	margin: 0 auto;
+}
+
+footer p {
+	color: #FFFFFF;
+	font-size: 12px;
+	margin: 0;
+	padding: 25px 20px 25px 15px;
+}
